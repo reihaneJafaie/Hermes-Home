@@ -1,0 +1,596 @@
+@import url('reset.css');
+
+body{
+     background-color: #f6f1eb;
+     
+}
+
+.contaner{
+     width: 1300px;
+     margin: auto;
+   /**  border: 4px solid pink; **/
+}
+
+
+/**TITTLE PAGE**/
+
+article{
+     padding-top: 50px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    
+     font-family: Verdana, Geneva, sans-serif;
+     letter-spacing: 0.8px;
+     word-spacing: 6px;
+     color: #444;
+     font-weight: 400;
+     text-decoration: rgb(68, 68, 68);
+     font-style: normal;
+     font-variant: small-caps;
+     text-transform: capitalize;
+}
+
+h1{
+     font-size:24px;
+     
+}
+h3{
+     font-size: 14px;
+     display: block;
+}
+
+.head{
+     width: 100%;
+     text-align: center;
+     padding: 20px;
+     box-sizing: border-box;
+     line-height: 30px;
+}
+
+.Description{
+     width: 70%;
+     margin: auto;
+     font-family: "Courier New", Courier, monospace;
+     
+}
+
+.Description a {
+     color :#444;
+}
+
+.Description a:hover {
+     text-decoration: none;
+     transition: 0.25s;
+}
+
+.font-icon{
+     color: rgba(68, 68, 68, 0.705);
+}
+/**----------**/
+
+
+
+/*FIRST LIST UP SITE*/
+.navbar {
+     width: 100%;
+     height: 40px;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     
+    
+
+}
+
+.navbar li{
+     display: inline;
+     padding: 10px;
+     
+}
+
+.navbar li a {
+     font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color:#444;
+      text-decoration: none;
+      font-size: 11px;
+      
+}
+/*-----------------*/
+
+
+
+
+/*NAVIGATION STYLE*/
+
+.navi{
+     padding-left: 20px;
+     padding-right: 20px;
+     margin-bottom: 30px;
+     background-color: #f6f1ec;
+     display: flex;
+     align-items: center;
+     height: 75px;
+    
+     position: sticky;
+     top: 0;
+}
+
+#meno{
+     cursor: pointer;
+     flex-grow: 0.3;
+     color: rgba(68, 68, 68, 0.747);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#search input{
+     width: 138px;
+     height: 40px;
+     background-image: url(../imags/magnifying-glass.png);
+     background-repeat: no-repeat;
+     text-indent: 20px;
+     flex-grow:0.5;
+     border: 1px solid rgba(68, 68, 68, 0.479);
+
+     
+}
+
+.navi  span {
+     flex-grow:3;
+     justify-content: center;
+     align-items: center;
+}
+.navi .imgWarp{
+     width: 16%;
+     margin: auto;
+}
+.navi span img {
+     width: 80px;
+     cursor: pointer;
+     
+}
+
+.login {
+    
+     height: 40px;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     
+    
+}
+
+.login li{
+     display: inline;
+     padding-left: 20px;
+     padding-right: 20px;
+     
+    
+}
+
+.login li a {
+     color:rgba(68, 68, 68, 0.603);
+     text-decoration: none;
+     font-size: 15px;
+}
+
+/*-----------------*/
+
+
+
+
+/**HEADER**/
+
+header{
+     height: 900px;
+     width: 100%;
+     text-align: center;
+     padding: 20px;
+     box-sizing: border-box;
+     line-height: 40px;
+    position: relative;
+    top:100px;
+    z-index: -1;
+
+
+    /* display: flex;
+     flex-direction: column;
+     align-items:center;
+     background-color: aqua;*/
+}
+
+header img {
+     width: 100%;
+}
+/**------------------**/
+
+
+
+
+/**ARTICLE 8 **/
+
+.ARTICLE8{
+     margin-top: 30px;
+     height:800px ;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     align-items: space-around;
+     
+}
+
+
+.ARTICLE8 .box {
+     display: block;
+     width:23%;
+}
+.ARTICLE8 .box img{
+     width: 100%;
+}
+
+.ARTICLE8 a{
+     font-family: Verdana, Geneva, sans-serif;
+     text-decoration: none;
+     color: #444;
+     font-size: 16px;
+     font-variant: small-caps;
+     text-transform: capitalize;
+}
+/**------------**/
+
+
+
+/**ARTICLE 2**/
+
+.article2{
+
+     width: 80%;
+     height: 800px;
+     margin: auto;
+     background-color: #fffcf7; 
+     
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+.article2 img{
+     width: 90%;
+
+     padding: 50px;
+     box-sizing: border-box;
+}
+/**-------------**/
+
+/**ARTICLE 3**/
+
+.article3{
+     display: flex;
+     justify-content: space-evenlys;
+     width: 100%;
+}
+
+.right {
+     width: 50%;
+     
+     order: 2;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     align-items: baseline;
+
+     
+}
+.right a{
+     width: 35%;
+     
+     box-sizing: border-box;
+
+     
+}
+.right a img{
+     width: 100%;
+     
+}
+.left{
+     width: 50%;
+     height: 600px;
+
+     flex-grow: 2;
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+}
+
+
+.left img {
+     width: 85%;
+
+     
+}
+
+.article3  a{
+     text-decoration: none;  
+     color: #444;
+}
+/**---------------**/
+
+/**FOOTER**/
+footer{
+     margin-top: 100px;
+     background-color: #fffcf7;
+}
+
+
+
+.footTittle{
+     text-align: center;
+     font-family: Verdana, Geneva, sans-serif;
+     letter-spacing: 0.8px;
+     word-spacing: 6px;
+     color: #444;
+     font-weight: 400;
+     text-decoration: rgb(68, 68, 68);
+     font-style: normal;
+     font-variant: small-caps;
+     text-transform: capitalize;
+     line-height: 40px;
+}
+
+.descriptionTittle{
+
+     text-align: center;
+     font-size: 15px;
+     letter-spacing: 1px;
+     word-spacing: 2.8px;
+     color: #444;
+     font-weight: normal;
+     text-decoration: none;
+     font-style: normal;
+     font-variant: normal;
+     text-transform: none;
+}
+
+
+.Help{
+     
+     display: flex;
+     height: 200px;
+     flex-direction: row;
+     justify-content: space-evenly;
+     align-items: flex-start;
+     border-bottom:1px solid rgba(68, 68, 68, 0.39);
+     
+     
+}
+
+.collus{
+     width: 20%;
+}
+
+footer a{
+     
+     color: rgb(44, 42, 42);
+}
+
+.inp{
+     text-align: center;
+     padding: 30px;
+     line-height: 40px;
+    
+}
+.inp div{
+     font-size: 12px;
+     font-family: 'Courier New', Courier, monospace;
+     
+}
+.inp button {
+     padding: 10px;
+     width: 240px;
+     margin-top: 10px;
+     background-color: #444;
+     color: #f6f1eb;
+     border: none;
+     border-radius: 5px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 16px;
+}
+
+.quickAccess{
+     margin-top: 30px;
+     height: 400px;
+     display: flex;
+     justify-content: space-around;
+     align-items: flex-start;
+     border-bottom: 1px solid rgba(68, 68, 68, 0.507);
+}
+
+.quickAccess span{
+     line-height: 40px;
+     
+}
+
+.quickAccess li{
+     line-height: 30px;
+}
+
+.quickAccess li a {
+     text-decoration: none;
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 12px;
+}
+
+.footer{
+     display: flex;
+     height: 300px;
+
+}
+
+.footer span{
+     line-height: 30px;
+     display: flex;
+     flex-grow: 0.3;
+     font-size: 13px;
+
+}
+.footer .space{
+     width: 35%;
+     margin: auto;
+}
+
+.footer .imgfoot {
+     flex-grow: 3;
+     display: flex;
+     align-self: center;
+     
+}
+.footer .Cyberspace{
+     display: flex;
+     justify-content: space-evenly;
+     padding-top: 10px;
+     font-size: 25px;
+     flex-grow: 0.4;
+     
+    
+}
+.footer .Cyberspace a{
+     color: #444;
+}
+
+
+/**JS***/     
+
+
+#select-color{
+     margin:200px auto auto;
+     background-color: rgba(56, 52, 52, 0.808);
+     width: 400px;
+     padding: 30px;
+     border-radius: 5px;
+     color: aliceblue;
+ }
+ 
+ #select-color input[type='range']{
+     width: 100%;
+ }
+ .btn{
+     text-align: center;
+     padding-top: 20px;
+     box-sizing: border-box;
+ }
+ 
+ /** SCROLL UP BTN**/
+
+ .mybtn{
+     display:none; 
+     position: fixed;
+     bottom: 50px;
+     right: 30px;
+     color: #d3b897;
+     border:1px solid #6e5c45;
+     border-radius: 5px;
+     padding: 5px;
+     font-size: 14px;
+ }
+
+
+/***ACCONT****/
+
+ .accountForm{
+     width: 400px;
+     height: 1100px;
+     background-color: #ffffff;
+     padding: 70px;
+     box-sizing: border-box;
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     display: none;
+     
+ }
+
+ 
+ .accountForm h1{
+     font-size:24px;
+    padding-bottom: 30px;
+ }
+  .accountFormh2{
+     padding-bottom: 20px;
+ }
+ .accountForm h3{
+     font-size: 14px;
+     display: block;
+     padding-bottom: 30px;
+ }
+ 
+ .accountForm a{
+     font-size: 12px;
+     color: #444;
+ }
+ .accountForm form{
+     color: #444444c7;
+ }
+ 
+ .accountForm label{
+     font-size: 14px;
+     padding-right: 165px;
+     
+ }
+ 
+ .accountForm .inpaccont{
+     width: 100%;
+     margin:10px 0px;
+     height: 30px;
+     border-radius: 0px;
+     border: 1px solid #44444459;
+ }
+ 
+ .accountForm button{
+     
+     cursor: pointer;
+     width: 100%;
+     margin:20px 0px;
+     height: 40px;
+     border-radius: 5px;
+     border: 1px solid #44444459;
+     color:#ffffff;
+     background-color: #444;
+     font-size: 14px;
+     font-family: 'Courier New', Courier, monospace;
+ }
+ 
+ .accountForm .or{
+     text-align: center;
+     color: #444;
+ }
+ 
+ .accountForm .or::after ,.or::before  {
+    content: "_______________";
+    color: rgba(68, 68, 68, 0.384);
+ }
+ 
+ .accountForm .descriptionaccont {
+     padding: 40px;
+     height: 470px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     color: #444;
+     font: optional;
+     font-size: 15px;
+     line-height: 20px;
+     
+ }
+
+
+ .accountForm #exid {
+      position: absolute;
+      top:50px;
+      right: 50px;
+      font-size: 30px;
+      cursor: pointer;
+ }
+ 
+ 
+ 
+ 
